@@ -6,4 +6,4 @@ tip = meal_cost * tip_percent / 100
 tax = meal_cost * tax_percent / 100
 total = meal_cost + tip + tax
 
-print("The total meal cost is " + str(round(total)) + " dollars.")
+print(str(round(total)))
